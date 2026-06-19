@@ -12,8 +12,6 @@ python3 -m http.server 8000
 
 ## Antes de publicar
 
-- **WhatsApp:** troque o número placeholder `5500000000000` em [index.html](index.html) (seção `#contato`) pelo número real, só dígitos (DDI+DDD+número).
-- **Instagram:** os links já apontam para `instagram.com/mourart_tattoo` — atualize se o @ mudar.
 - **Galeria:** a seção `#portfolio` usa ícones em SVG como placeholder de flash. Troque por fotos reais das tatuagens quando tiver os arquivos (recomendado: imagens quadradas, otimizadas para web).
 
 ## Deploy
