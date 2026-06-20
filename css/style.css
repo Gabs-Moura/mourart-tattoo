@@ -546,6 +546,24 @@ section {
   color: var(--white);
 }
 
+.gallery__card--instagram {
+  display: none;
+}
+
+.gallery__card--instagram span {
+  max-width: 160px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--white);
+}
+
+.gallery__card--instagram:hover span {
+  color: var(--red);
+}
+
 .portfolio__more {
   margin-top: 48px;
   display: flex;
@@ -554,6 +572,15 @@ section {
 
 @media (max-width: 768px) {
   .gallery { grid-template-columns: repeat(2, 1fr); }
+
+  .gallery__card--instagram {
+    display: flex;
+    background: var(--bg-panel);
+  }
+
+  .portfolio__more {
+    display: none;
+  }
 }
 
 /* ===================================================================
